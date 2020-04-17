@@ -54,7 +54,7 @@
 .logo {
     dispaly: flex;
     width: 15vw;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
 }
 
 .searchbar {
@@ -67,6 +67,10 @@
     margin-bottom: 22px;
 }
 
+.searchbar:hover {
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,0.19);
+}
+
 .gsearch,.lucky {
     font-size: 14px;
     color: rgb(100, 100, 100);
@@ -75,6 +79,7 @@
     background: rgb(243, 243, 243);
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 4px;
 }
 
 .gsearch {
@@ -83,6 +88,14 @@
 
 .lucky {
     margin-left: 6px;
+}
+
+.gsearch:hover,.lucky:hover {
+    box-shadow: 0 1px 0 rgba(0,0,0,0.19);
+    color: darkslategrey;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(210, 210, 210);
 }
 
 .footer {
